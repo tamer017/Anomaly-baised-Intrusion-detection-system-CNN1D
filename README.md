@@ -1,4 +1,4 @@
-### Anomaly baised Intrusion Detection System using one-dimensional Convolutional Neural Network 
+## Anomaly baised Intrusion Detection System using one-dimensional Convolutional Neural Network 
 As technologies in information and virtualization evolve, the volume of security threats attempting to cause damage to systems
 grows and becomes more powerful, which highlights the importance of Intrusion Detection Systems (IDS) to have an essential role
 in network security and help in detecting malicious attacks from network traffic. The most widely used network anomaly detection
@@ -11,10 +11,10 @@ Network (CNN1D) is proposed that is able to detect anomalies with accuracy of 93
 benchmark dataset was used to train this model. Achieved results are then compared to Deep Learning (DL) methods like CNN,
 LSTM, Recurrent Neural Network (RNN), and others to prove the proposed model’s superiority.
 
-##### Data preprocessing steps
+### Data preprocessing steps
 ![preprocessing](https://user-images.githubusercontent.com/83555471/189566619-215bcc28-6e00-4d38-b7b7-2673ff0a6b5a.png)
 
-#### Model structure 
+### Model structure 
 The proposed model consists of seven blocks including an input block, an output block, Three CNN blocks, and
 two MLP (Fully connected) blocks. The CNN hidden blocks are consist of a 1D convolution layer, a 1D max pooling
 layer and a Dropout layer with 0.1 dropout rate as shown in figure (5) and table (6). The input layer has a size of
@@ -31,7 +31,8 @@ the biases were initialized with zeros.
 
 ![model](https://user-images.githubusercontent.com/83555471/189566815-e7e1a10f-3de6-4066-af4a-27eaf97e0a4a.png)
 
-#### Results 
-
+### Results 
+#### Binary Confusion matrix.
 ![binary_confusion_matrix](https://user-images.githubusercontent.com/83555471/189566865-06b18d51-e815-424a-8bb5-6987ba6ab442.png)
+#### Categorical Confusion matrix.
 ![categorical_confusion_matrix](https://user-images.githubusercontent.com/83555471/189566875-628148ac-90f6-43d6-9335-80d081784e3c.png)
