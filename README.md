@@ -1,4 +1,4 @@
-## Anomaly baised Intrusion Detection System using one-dimensional Convolutional Neural Network 
+## Anomaly-based Intrusion Detection System using a one-dimensional Convolutional Neural Network 
 As technologies in information and virtualization evolve, the volume of security threats attempting to cause damage to systems
 grows and becomes more powerful, which highlights the importance of Intrusion Detection Systems (IDS) to have an essential role
 in network security and help in detecting malicious attacks from network traffic. The most widely used network anomaly detection
